@@ -47,6 +47,6 @@ public class TestTaskUniversityApplication {
 
             helper.chooseRequest(input);
         }
-        System.out.println("Buy! :)");
+        System.out.println("Bye! :)");
     }
 }
