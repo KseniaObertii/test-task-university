@@ -10,11 +10,11 @@ import java.util.Scanner;
 @SpringBootApplication
 public class TestTaskUniversityApplication {
     public static String POSSIBLE_COMMANDS =
-            "Who is head of department {department name}\n" +
-                    "Show {department name} statistics\n" +
-                    "Show the average salary for the department {department name}\n" +
-                    "Show count of employee for {department name}\n" +
-                    "Global search by {template}";
+            "-> Who is head of department {department name}\n" +
+                    "-> Show {department name} statistics\n" +
+                    "-> Show the average salary for the department {department name}\n" +
+                    "-> Show count of employee for {department name}\n" +
+                    "-> Global search by {template}";
     public static String HELPER_MESSAGE =
             "Helper commands:\n" +
                     "-> Show possible requests\n" +
